@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:id="@+id/TextView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:gravity="center"
+            android:textSize="15pt"
+            android:textColor="#FF000000"
+            android:textStyle="bold"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/btndatabarang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Menu Data Barang"
+            android:textStyle="bold"
+            android:layout_margin="5dp"/>
+        <Button
+            android:id="@+id/btnjenis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Menu Jenis"
+            android:textStyle="bold"
+            android:layout_margin="5dp"/>
+        <Button
+            android:id="@+id/btnpenjualan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Menu Penjualan"
+            android:textStyle="bold"
+            android:layout_margin="5dp"/>
+        <Button
+            android:id="@+id/btnpembelian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Menu Pembelian"
+            android:textStyle="bold"
+            android:layout_margin="5dp"/>
+        <Button
+            android:id="@+id/btnlogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textStyle="bold"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+
+</LinearLayout>

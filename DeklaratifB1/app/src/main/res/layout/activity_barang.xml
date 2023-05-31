@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".barang">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data Barang"
+        android:gravity="center"
+        android:textSize="12pt"
+        android:textColor="#FF000000"
+        android:layout_margin="10dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/TextView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID Barang"
+        android:textSize="8pt"
+        android:layout_margin="5dp"
+        android:textColor="#FF000000"/>
+    <EditText
+        android:id="@+id/txtidbarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Id Barang"
+        android:minHeight="48dp"
+        android:layout_margin="5dp"
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/TextView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kode Barang"
+        android:textSize="8pt"
+        android:layout_margin="5dp"
+        android:textColor="#FF000000"/>
+
+        <EditText
+            android:id="@+id/txtkodebarang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kode Barang"
+            android:minHeight="48dp"
+            android:layout_margin="5dp"
+            android:inputType="text"/>
+        <TextView
+            android:id="@+id/TextView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tanggal"
+            android:textSize="8pt"
+            android:layout_margin="5dp"
+            android:textColor="#FF000000"/>
+
+        <EditText
+            android:id="@+id/txttanggal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tanggal"
+            android:minHeight="48dp"
+            android:layout_margin="5dp"
+            android:inputType="date"/>
+
+        <TextView
+            android:id="@+id/TextView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Barang"
+            android:textSize="8pt"
+            android:layout_margin="5dp"
+            android:textColor="#FF000000"/>
+        <EditText
+            android:id="@+id/txtnamabarang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan nama barang"
+            android:minHeight="48dp"
+            android:layout_margin="5dp"
+            android:inputType="text"/>
+
+        <TextView
+            android:id="@+id/TextView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ID Jenis"
+            android:textSize="8pt"
+            android:layout_margin="5dp"
+            android:textColor="#FF000000"/>
+        <EditText
+            android:id="@+id/txtidjenis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan ID Jenis"
+            android:minHeight="48dp"
+            android:layout_margin="5dp"
+            android:inputType="text"/>
+
+        <TextView
+            android:id="@+id/TextView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Harga Beli"
+            android:textSize="8pt"
+            android:layout_margin="5dp"
+            android:textColor="#FF000000"/>
+        <EditText
+            android:id="@+id/txthargabeli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan harga beli"
+            android:minHeight="48dp"
+            android:layout_margin="5dp"
+            android:inputType="number"/>
+
+        <TextView
+            android:id="@+id/TextView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Harga Jual"
+            android:textSize="8pt"
+            android:layout_margin="5dp"
+            android:textColor="#FF000000"/>
+        <EditText
+            android:id="@+id/txthargajual"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan harga jual"
+            android:minHeight="48dp"
+            android:layout_margin="5dp"
+            android:inputType="number"/>
+
+        <TextView
+            android:id="@+id/TextView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jumlah Stok"
+            android:textSize="8pt"
+            android:layout_margin="5dp"
+            android:textColor="#FF000000"/>
+        <EditText
+            android:id="@+id/txtjumlahstok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan jumlah stok"
+            android:minHeight="48dp"
+            android:layout_margin="5dp"
+            android:inputType="number"/>
+        <Button
+            android:id="@+id/btnsimpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Simpan"/>
+
+        <Button
+            android:id="@+id/btnclear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Clear"/>
+    </LinearLayout>
+</ScrollView>
